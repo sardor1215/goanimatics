@@ -28,7 +28,7 @@ export default function Discount() {
                         <span className="block text-2xl text-gray-700 font-bold">
                           %
                         </span>
-                        <span className="block text-xl text-red-400 font-bold">
+                        <span className="block text-xl text-red-500 font-bold">
                           Off
                         </span>
                       </div>
@@ -63,7 +63,7 @@ export default function Discount() {
                   <span>Call us at</span>
                   <a
                     href="tel:+24300"
-                    className="flex space-x-2 items-center text-red-400"
+                    className="flex space-x-2 items-center text-red-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function Discount() {
                 <button
                   type="submit"
                   title="Submit"
-                  className="block w-full py-3 px-6 text-center rounded-xl transition bg-red-400 hover:bg-red-600 active:bg-purple-800 focus:bg-indigo-600"
+                  className="block w-full py-3 px-6 text-center rounded-xl transition bg-red-500 hover:bg-red-600 active:bg-purple-800 focus:bg-indigo-600"
                 >
                   <span className="text-white font-semibold">
                     {" "}

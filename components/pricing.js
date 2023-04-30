@@ -1,6 +1,6 @@
 export default function Pricing() {
   return (
-    <div className="antialiased w-full h-full bg-black text-gray-400 font-inter p-10">
+    <div className="antialiased w-full h-full border-t border-white bg-black text-gray-400 font-inter p-10">
       <div className="container px-4 mx-auto">
         <div>
           <div id="title" className="text-center my-10">
@@ -16,7 +16,7 @@ export default function Pricing() {
             >
               <div id="title" className="w-full py-5 border-b border-gray-800">
                 <h2 className="font-bold text-3xl text-white">Whiteboard</h2>
-                <h3 className="font-normal text-red-400 text-xl mt-2">
+                <h3 className="font-normal text-red-500 text-xl mt-2">
                   $589/month
                 </h3>
               </div>
@@ -67,7 +67,7 @@ export default function Pricing() {
             >
               <div id="title" className="w-full py-5 border-b border-gray-800">
                 <h2 className="font-bold text-3xl text-white">Corporate</h2>
-                <h3 className="font-normal text-red-400 text-xl mt-2">
+                <h3 className="font-normal text-red-500 text-xl mt-2">
                   $1000/month
                 </h3>
               </div>
@@ -118,7 +118,7 @@ export default function Pricing() {
             >
               <div id="title" className="w-full py-5 border-b border-gray-800">
                 <h2 className="font-bold text-3xl text-white">Enterprise</h2>
-                <h3 className=" text-red-400 text-xl mt-2">$1500/month</h3>
+                <h3 className=" text-red-500 text-xl mt-2">$1500/month</h3>
               </div>
               <div id="content" className="">
                 <div id="icon" className="my-5">

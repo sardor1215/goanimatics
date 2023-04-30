@@ -1,6 +1,6 @@
 export default function Reviews() {
   return (
-    <div className="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center ">
+    <div className="min-w-screen min-h-screen border-t border-white bg-gray-50 flex items-center justify-center ">
       <div className="w-full bg-black  border-b border-gray-200 px-5 py-16 md:py-24 text-white">
         <div className="w-full max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto">
@@ -11,11 +11,11 @@ export default function Reviews() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h3>
             <div className="text-center mb-10">
-              <span className="inline-block w-1 h-1 rounded-full bg-red-400 ml-1"></span>
-              <span className="inline-block w-3 h-1 rounded-full bg-red-400 ml-1"></span>
-              <span className="inline-block w-40 h-1 rounded-full bg-red-400"></span>
-              <span className="inline-block w-3 h-1 rounded-full bg-red-400 ml-1"></span>
-              <span className="inline-block w-1 h-1 rounded-full bg-red-400 ml-1"></span>
+              <span className="inline-block w-1 h-1 rounded-full bg-red-500 ml-1"></span>
+              <span className="inline-block w-3 h-1 rounded-full bg-red-500 ml-1"></span>
+              <span className="inline-block w-40 h-1 rounded-full bg-red-500"></span>
+              <span className="inline-block w-3 h-1 rounded-full bg-red-500 ml-1"></span>
+              <span className="inline-block w-1 h-1 rounded-full bg-red-500 ml-1"></span>
             </div>
           </div>
           <div className="-mx-3 md:flex items-start">
