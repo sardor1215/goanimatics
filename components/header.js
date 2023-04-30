@@ -9,10 +9,7 @@ export default function Header() {
     <div>
       <Head>
         <title>Goanimatics</title>
-        <meta
-          name="description"
-          content="Create Next JS Responsive Menu with Tailwind CSS"
-        />
+        <meta name="description" content="Goanimatics -- Animate with US" />
         <link rel="icon" href="/favicon.ico" />
         {/* pricing style's */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
