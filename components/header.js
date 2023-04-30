@@ -27,13 +27,18 @@ export default function Header() {
           href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css"
         />
       </Head>
-      <nav className="w-full relative shadow mt-2 border-t-4 border-b-4 border-red-400">
+      <nav className="w-full relative shadow mt-2 border-t-4 border-b-4 border-red-500">
         <Script src="https://unpkg.com/swiper/swiper-bundle.min.js"></Script>
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:py-3 md:block">
               <a href="#">
-                <h2 className="text-2xl text-white font-bold">GoAnimatics</h2>
+                <h2 className="text-2xl text-red-500 font-bold">
+                  Go
+                  <span className="underline decoration-sky-500">
+                    <span className="text-white">Animatics</span>
+                  </span>
+                </h2>
               </a>
               <div className="md:hidden">
                 <button

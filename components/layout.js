@@ -30,7 +30,7 @@ export default function Layout(props) {
           <Header />
         </div>
         <div className="video-content  items-center justify-center text-center backdrop-contrast-200 mt-36">
-          <h1 className="text-6xl  sm:text-8xl mt-4 text-bold backdrop-blur-md text-red-400 bg-white/30">
+          <h1 className="text-6xl  sm:text-8xl mt-4 text-bold backdrop-blur-md text-red-500 bg-white/30">
             Go
             <span className="underline decoration-sky-500">
               <span className="text-white">Animatics</span>
