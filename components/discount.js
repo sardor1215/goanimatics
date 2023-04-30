@@ -12,7 +12,7 @@ export default function Discount() {
             <div className="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
               <div
                 aria-hidden="true"
-                className="absolute top-0 w-full h-full rounded-2xl bg-white  shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
+                className="absolute top-0 w-full h-full rounded-2xl bg-white border-2 border-red-500  shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
               ></div>
               <div className="relative p-6 space-y-6 lg:p-8">
                 <h3 className="text-3xl text-gray-700 font-semibold text-center">
@@ -93,7 +93,7 @@ export default function Discount() {
             <div className="relative group md:w-6/12 lg:w-7/12">
               <div
                 aria-hidden="true"
-                className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-lg transition duration-500 group-hover:scale-105"
+                className="absolute top-0 w-full h-full rounded-2xl bg-white border-2 border-red-500 shadow-lg transition duration-500 group-hover:scale-105"
               ></div>
               <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16">
                 <ul role="list" className="space-y-4 py-6 text-gray-600">

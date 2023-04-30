@@ -51,7 +51,7 @@ export default function Layout(props) {
         </div>
       </section>
 
-      <div className="bg-black text-white pt-24">
+      <div className="bg-black text-white border-t border-red-500 pt-24">
         <div className="mx-auto flex flex-col items-center  px-5  lg:flex-row">
           <div className="mb-16 flex flex-col text-left lg:mb-0 sm:mx-32 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
             <h2 className="mb-4 text-2xl font-bold leading-none sm:text-5xl">

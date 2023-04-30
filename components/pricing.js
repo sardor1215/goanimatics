@@ -1,6 +1,6 @@
 export default function Pricing() {
   return (
-    <div className="antialiased w-full h-full border-t border-white bg-black text-gray-400 font-inter p-10">
+    <div className="antialiased w-full h-full border-t border-red-500 bg-black text-gray-400 font-inter p-10">
       <div className="container px-4 mx-auto">
         <div>
           <div id="title" className="text-center my-10">
@@ -14,7 +14,7 @@ export default function Pricing() {
               id="plan"
               className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
             >
-              <div id="title" className="w-full py-5 border-b border-gray-800">
+              <div id="title" className="w-full py-5 border-b border-red-500">
                 <h2 className="font-bold text-3xl text-white">Whiteboard</h2>
                 <h3 className="font-normal text-red-500 text-xl mt-2">
                   $589/month
@@ -65,8 +65,8 @@ export default function Pricing() {
               id="plan"
               className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
             >
-              <div id="title" className="w-full py-5 border-b border-gray-800">
-                <h2 className="font-bold text-3xl text-white">Corporate</h2>
+              <div id="title" className="w-full py-5 border-b border-red-500">
+                <h2 className="font-bold text-3xl text-white">Explainer</h2>
                 <h3 className="font-normal text-red-500 text-xl mt-2">
                   $1000/month
                 </h3>
@@ -116,8 +116,8 @@ export default function Pricing() {
               id="plan"
               className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
             >
-              <div id="title" className="w-full py-5 border-b border-gray-800">
-                <h2 className="font-bold text-3xl text-white">Enterprise</h2>
+              <div id="title" className="w-full py-5 border-b border-red-500">
+                <h2 className="font-bold text-3xl text-white">Premium</h2>
                 <h3 className=" text-red-500 text-xl mt-2">$1500/month</h3>
               </div>
               <div id="content" className="">
