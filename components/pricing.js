@@ -4,7 +4,7 @@ export default function Pricing() {
       <div className="container px-4 mx-auto">
         <div>
           <div id="title" className="text-center my-10">
-            <h1 className="font-bold text-4xl text-white">Pricing Plans</h1>
+            <h1 className="font-bold text-4xl text-red-500">Pricing Plans</h1>
             <p className="text-light text-gray-500 text-xl">
               Here are our pricing plans
             </p>
