@@ -66,9 +66,9 @@ export default function Layout(props) {
           </div>
           <div className="lg:w-full lg:max-w-2xl">
             <iframe
+              className="w-72 sm:w-96"
               title="vimeo-player"
               src="https://player.vimeo.com/video/756360442?h=804d60209a"
-              width="450"
               height="320"
               frameBorder="0"
               allowFullScreen
@@ -79,8 +79,8 @@ export default function Layout(props) {
           <div className="mx-auto flex flex-col px-5  text-left lg:flex-row">
             <div className="hidden sm:mx-32 lg:inline-block lg:w-full lg:max-w-xl">
               <iframe
+                className="w-72 sm:w-96"
                 src="https://player.vimeo.com/video/756362818?h=0f8371885b"
-                width="450"
                 height="320"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
@@ -104,8 +104,8 @@ export default function Layout(props) {
             </div>
             <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
               <iframe
+                className="w-72 sm:w-96"
                 src="https://player.vimeo.com/video/756362818?h=0f8371885b"
-                width="450"
                 height="320"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
@@ -134,9 +134,9 @@ export default function Layout(props) {
           </div>
           <div className="lg:w-full lg:max-w-2xl">
             <iframe
+              className="w-72 sm:w-96"
               title="vimeo-player"
               src="https://player.vimeo.com/video/756360442?h=804d60209a"
-              width="450"
               height="320"
               frameBorder="0"
               allowFullScreen
