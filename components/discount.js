@@ -18,7 +18,7 @@ export default function Discount() {
                 <h3 className="text-3xl text-gray-700 font-semibold text-center">
                   We give
                 </h3>
-                <div className="absolute top-0 right-0 -mr-1 -mt-1 w-8 h-8 rounded-full bg-red-500 animate-ping"></div>
+                {/* <div className="absolute top-0 right-0 -mr-1 -mt-1 w-8 h-8 rounded-full bg-red-500 animate-ping"></div> */}
                 <div>
                   <div className="relative flex justify-around">
                     <div className="flex items-end">
