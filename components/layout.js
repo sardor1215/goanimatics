@@ -45,7 +45,7 @@ export default function Layout(props) {
           {/* <div className=" text-red-400 font-bold text-2xl px-0  mt-16">
             <h2>See What We Deliver to Our Clients</h2>
           </div> */}
-          <p className="animate-bounce mt-72 text-2xl fonr-semibold">
+          <p className="animate-bounce mt-48 sm:mt-72 text-2xl fonr-semibold">
             Scroll Down
           </p>
         </div>
@@ -104,7 +104,7 @@ export default function Layout(props) {
             </div>
             <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
               <iframe
-                className="w-72 sm:w-96 ml-16 sm:ml-0"
+                className="w-72 sm:w-96 ml-8 sm:ml-0"
                 src="https://player.vimeo.com/video/756362818?h=0f8371885b"
                 height="320"
                 frameBorder="0"

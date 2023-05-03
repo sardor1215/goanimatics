@@ -53,7 +53,7 @@ export default function Pricing() {
                   <div id="choose" className="w-full mt-10 px-6">
                     <a
                       href="#"
-                      className="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
+                      className="border border-red-500 w-full block text-red-500 bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
                     >
                       BUY
                     </a>
@@ -104,7 +104,7 @@ export default function Pricing() {
                   <div id="choose" className="w-full mt-10 px-6">
                     <a
                       href="#"
-                      className="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
+                      className="border border-red-500 w-full text-red-500 block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
                     >
                       BUY
                     </a>
@@ -150,10 +150,10 @@ export default function Pricing() {
                     <li>Original design</li>
                     <li>Voice over recording</li>
                   </ul>
-                  <div id="choose" className="w-full mt-10 px-6">
+                  <div id="choose" className="w-full mt-10 px-6 ">
                     <a
                       href="#"
-                      className="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
+                      className="border border-red-500 w-full block text-red-500 bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-red-500 hover:text-white"
                     >
                       BUY
                     </a>
