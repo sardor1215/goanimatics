@@ -7,7 +7,7 @@ import { Steps } from "./steps";
 
 export default function Layout(props) {
   return (
-    <div className="flex flex-col min-h-screen ">
+    <div className="flex flex-col min-h-screen bg-black ">
       {/* <video
         className="absolute"
         src="https://www.spielcreative.com/wp-content/themes/spiel/videos/coverfold-explainer-videos-new.mp4"
