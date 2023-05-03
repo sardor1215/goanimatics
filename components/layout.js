@@ -3,10 +3,11 @@ import Footer from "./footer";
 import Reviews from "./reviews";
 import Pricing from "./pricing";
 import Discount from "./discount";
+import { Steps } from "./steps";
 
 export default function Layout(props) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col bg-black min-h-screen ">
       {/* <video
         className="absolute"
         src="https://www.spielcreative.com/wp-content/themes/spiel/videos/coverfold-explainer-videos-new.mp4"
@@ -15,7 +16,7 @@ export default function Layout(props) {
         muted
       ></video> */}
 
-      <section className="relative h-screen flex flex-col bg-['https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']  text-white py-0 px-3">
+      <section className="relative h-screen flex flex-col    text-white py-0 px-3">
         <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
             className="hidden sm:block min-w-full min-h-full absolute object-cover contrast-125 "
@@ -45,6 +46,7 @@ export default function Layout(props) {
           {/* <div className=" text-red-400 font-bold text-2xl px-0  mt-16">
             <h2>See What We Deliver to Our Clients</h2>
           </div> */}
+
           <p className="animate-bounce mt-48 sm:mt-72 text-2xl fonr-semibold">
             Scroll Down
           </p>
@@ -146,7 +148,9 @@ export default function Layout(props) {
       </div>
 
       {/* steps */}
-
+      <div className="border-t  border-red-500">
+        <Steps />
+      </div>
       <Reviews />
       <Discount />
       <Pricing />
