@@ -15,10 +15,10 @@ export default function Layout(props) {
         muted
       ></video> */}
 
-      <section className="relative h-screen flex flex-col  text-white py-0 px-3">
+      <section className="relative h-screen flex flex-col bg-['https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']  text-white py-0 px-3">
         <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
-            className="min-w-full min-h-full absolute object-cover contrast-125 "
+            className="hidden sm:block min-w-full min-h-full absolute object-cover contrast-125 "
             src="https://www.spielcreative.com/wp-content/themes/spiel/videos/coverfold-explainer-videos-new.mp4"
             type="video/mp4"
             autoPlay
@@ -104,7 +104,7 @@ export default function Layout(props) {
             </div>
             <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
               <iframe
-                className="w-72 sm:w-96"
+                className="w-72 sm:w-96 ml-16 sm:ml-0"
                 src="https://player.vimeo.com/video/756362818?h=0f8371885b"
                 height="320"
                 frameBorder="0"

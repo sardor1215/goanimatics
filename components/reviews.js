@@ -4,7 +4,7 @@ export default function Reviews() {
       <div className="w-full bg-black  border-b border-red-500 px-5 py-16 md:py-24 text-white">
         <div className="w-full max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto">
-            <h1 className="text-6xl md:text-5xl font-bold mb-5 text-red-500">
+            <h1 className="text-3xl md:text-5xl font-bold mb-5 text-red-500">
               What our customers tell about us.
             </h1>
             <h3 className="text-xl mb-5 font-light">
