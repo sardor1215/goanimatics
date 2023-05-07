@@ -12,7 +12,7 @@ export default function Pricing() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 ">
             <div
               id="plan"
-              className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
+              className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl  hover:scale-105 transition duration-200 ease-in"
             >
               <div id="title" className="w-full py-5 border-b border-red-500">
                 <h2 className="font-bold text-3xl text-white">Whiteboard</h2>

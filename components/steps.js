@@ -7,7 +7,7 @@ export const Steps = () => {
       <div>
         {/* <div className="grid gap-6 row-gap-10 lg:grid-cols-2 justify-center"> */}
         <div className="lg:py-6 lg:pr-16">
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">
@@ -53,7 +53,7 @@ export const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">
@@ -101,7 +101,7 @@ export const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">
@@ -148,7 +148,7 @@ export const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">
@@ -196,7 +196,7 @@ export const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">
@@ -242,7 +242,7 @@ export const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border border-red-500 rounded-full">

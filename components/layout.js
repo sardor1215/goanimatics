@@ -8,6 +8,9 @@ import { Steps } from "./steps";
 export default function Layout(props) {
   return (
     <div className="flex flex-col min-h-screen bg-black ">
+      <div className="smt-app smt-app-whatsapp force-desktop">
+        <div className="shadow-smt-app shadow-smt-app-whatsapp"></div>
+      </div>
       {/* <video
         className="absolute"
         src="https://www.spielcreative.com/wp-content/themes/spiel/videos/coverfold-explainer-videos-new.mp4"

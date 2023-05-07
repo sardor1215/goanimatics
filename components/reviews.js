@@ -20,7 +20,7 @@ export default function Reviews() {
           </div>
           <div className="-mx-3 md:flex items-start">
             <div className="px-3 md:w-1/3">
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=1" alt="" />
@@ -42,7 +42,7 @@ export default function Reviews() {
                   </p>
                 </div>
               </div>
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=2" alt="" />
@@ -65,7 +65,7 @@ export default function Reviews() {
               </div>
             </div>
             <div className="px-3 md:w-1/3">
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=3" alt="" />
@@ -85,7 +85,7 @@ export default function Reviews() {
                   </p>
                 </div>
               </div>
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=4" alt="" />
@@ -109,7 +109,7 @@ export default function Reviews() {
               </div>
             </div>
             <div className="px-3 md:w-1/3">
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=5" alt="" />
@@ -132,7 +132,7 @@ export default function Reviews() {
                   </p>
                 </div>
               </div>
-              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6">
+              <div className="w-full mx-auto rounded-lg bg-white border-2 border-red-500 p-5 text-gray-800 font-light mb-6 transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                     <img src="https://i.pravatar.cc/100?img=6" alt="" />
