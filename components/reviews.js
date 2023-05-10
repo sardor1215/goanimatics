@@ -1,7 +1,7 @@
 export default function Reviews() {
   return (
-    <div className="min-w-screen min-h-screen border-t border-red-500 bg-gray-50 flex items-center justify-center ">
-      <div className="w-full bg-black  border-b border-red-500 px-5 py-16 md:py-24 text-white">
+    <div className="min-w-screen min-h-screen border-t border-red-500 bg-black flex items-center justify-center ">
+      <div className="w-full   border-b border-red-500 px-5 py-16 md:py-24 text-white">
         <div className="w-full max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold mb-5 text-red-500">

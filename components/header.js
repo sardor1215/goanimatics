@@ -85,9 +85,9 @@ export default function Header() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 text-xl md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white font-semibold">
-                  <Link href="/">
-                    <a>HOME</a>
+                <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
+                  <Link href="#portfolio ">
+                    <a>Portfolio</a>
                   </Link>
                 </li>
                 {/* <li className="text-white font-semibold">
@@ -95,14 +95,19 @@ export default function Header() {
                     <a>Blogs</a>
                   </Link>
                 </li> */}
-                <li className="text-white font-semibold">
-                  <Link href="/about">
-                    <a>ABOUT US</a>
+                <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
+                  <Link href="#pricing">
+                    <a>Pricing</a>
                   </Link>
                 </li>
-                <li className="text-white font-semibold">
-                  <Link href="/contact">
-                    <a>CONTACT</a>
+                <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
+                  <Link href="#pepe">
+                    <a>About Us</a>
+                  </Link>
+                </li>
+                <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
+                  <Link href="javascript:void( window.open( 'https://form.jotform.com/231294780271457', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">
+                    <a>Get A Quote</a>
                   </Link>
                 </li>
               </ul>

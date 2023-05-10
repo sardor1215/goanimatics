@@ -2,7 +2,7 @@ export default function Discount() {
   return (
     <div classNameName="bg-black">
       <div className="bg-black">
-        <div className="container m-auto px-6 py-20 md:px-12 lg:px-20">
+        <div className="container m-auto px-6 pb-6 md:px-12 lg:px-20">
           <div className="m-auto text-center lg:w-8/12 xl:w-7/12">
             {/* <h2 className="text-2xl text-white  font-bold md:text-4xl">
               Your First
@@ -15,9 +15,6 @@ export default function Discount() {
                 className="absolute top-0 w-full h-full rounded-2xl bg-white border-2 border-red-500  shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
               ></div>
               <div className="relative p-6 space-y-6 lg:p-8">
-                <h3 className="text-3xl text-gray-700 font-semibold text-center">
-                  We give
-                </h3>
                 {/* <div className="absolute top-0 right-0 -mr-1 -mt-1 w-8 h-8 rounded-full bg-red-500 animate-ping"></div> */}
                 <div>
                   <div className="relative flex justify-around">
@@ -38,7 +35,7 @@ export default function Discount() {
                 </div>
                 <ul
                   role="list"
-                  className="w-max space-y-4 py-6 m-auto text-gray-600"
+                  className="w-max space-y-4  m-auto text-gray-600"
                 >
                   {/* <li className="space-x-2">
                     <span className="text-purple-500 font-semibold">
@@ -96,7 +93,7 @@ export default function Discount() {
                 aria-hidden="true"
                 className="absolute top-0 w-full h-full rounded-2xl bg-white border-2 border-red-500 shadow-lg transition duration-500 group-hover:scale-105"
               ></div>
-              <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16">
+              <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 ">
                 <ul role="list" className="space-y-4 py-6 text-gray-600">
                   {/* <li className="space-x-2">
                     <span className="text-purple-500 font-semibold">

@@ -4,13 +4,13 @@ import Reviews from "./reviews";
 import Pricing from "./pricing";
 import Discount from "./discount";
 import { Steps } from "./steps";
+import Portfolio from "./portfolio";
+import Popup from "./items/popup";
+import Faq from "./faq";
 
 export default function Layout(props) {
   return (
-    <div className="flex flex-col min-h-screen bg-black ">
-      <div className="smt-app smt-app-whatsapp force-desktop">
-        <div className="shadow-smt-app shadow-smt-app-whatsapp"></div>
-      </div>
+    <div className="flex flex-col min-h-screen bg-black scroll-smooth ">
       {/* <video
         className="absolute"
         src="https://www.spielcreative.com/wp-content/themes/spiel/videos/coverfold-explainer-videos-new.mp4"
@@ -18,7 +18,7 @@ export default function Layout(props) {
         loop
         muted
       ></video> */}
-
+      <Popup />
       <section className="relative h-screen flex flex-col    text-white py-0 px-3">
         <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
@@ -149,7 +149,7 @@ export default function Layout(props) {
           </div>
         </div>
       </div>
-
+      <Portfolio />
       {/* steps */}
       <div className="border-t  border-red-500">
         <Steps />
@@ -157,7 +157,7 @@ export default function Layout(props) {
       <Reviews />
       <Discount />
       <Pricing />
-
+      <Faq />
       <Footer />
     </div>
   );
