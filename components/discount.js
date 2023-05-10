@@ -8,7 +8,7 @@ export default function Discount() {
               Your First
             </h2> */}
           </div>
-          <div className="mt-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12">
+          <div className="py-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12">
             <div className="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
               <div
                 aria-hidden="true"

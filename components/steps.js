@@ -1,12 +1,12 @@
 export const Steps = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full  lg:max-w-screen-xl md:px-24 bg-black lg:px-8 lg:py-20 ">
-      <p className="text-red-500 text-6xl pb-12 text-center font-semibold">
+    <div className="px-4 py-16 md:px-24 bg-black lg:px-8 lg:py-20 border-t border-red-500">
+      <p className="text-red-500 md:text-4xl sm:text-2xl text-2xl pb-12 text-center font-semibold">
         Our 6 Step Process
       </p>
-      <div>
+      <div className="">
         {/* <div className="grid gap-6 row-gap-10 lg:grid-cols-2 justify-center"> */}
-        <div className="lg:py-6 lg:pr-16">
+        <div className="lg:py-6 lg:pr-16 md:mx-48 sm:mx-16">
           <div className="flex transform hover:shadow-2xl  hover:scale-110 transition duration-200 ease-in ">
             <div className="flex flex-col items-center mr-4">
               <div>

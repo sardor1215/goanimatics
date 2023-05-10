@@ -1,78 +1,95 @@
 export default function Portfolio() {
   return (
-    <section
+    <div
       id="portfolio"
-      className="container p-6 mx-auto  border-t border-red-500"
+      className="bg-black flex flex-col items-center border-t border-red-500 pt-4"
     >
-      <h4 className="text-xl font-bold text-red-500 capitalize  md:text-3xl text-center">
+      <h4 className="text-xl font-semibold text-red-500 capitalize  md:text-4xl text-center">
         RECENT JOBS
       </h4>
-      <p className="text-center">
-        Tools that will help you get things done in less time.
-      </p>
-
-      {/* <div className="flex items-center justify-center"> */}
-      <div className="grid sm:grid-cols-1 lg:grid-cols-3  space-x-4">
+      <div className="grid md:grid-cols-3 space-x-4">
         <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-
-        <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-
-        <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-
-        <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-
-        <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
         ></iframe>
         <iframe
-          width="380"
-          height="315"
-          src="https://www.youtube.com/embed/nJzKi6oIvBA?controls=0"
-          title="YouTube video player"
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
+        ></iframe>
+        <iframe
+          width="300"
+          height="260"
+          src="https://player.vimeo.com/video/756360442"
+          frameBorder="0"
+          allow=" fullscreen"
+          allowFullScreen=""
+          __idm_id__="8192001"
         ></iframe>
       </div>
-      {/* </div> */}
-    </section>
+    </div>
   );
 }

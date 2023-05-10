@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Faq() {
   return (
-    <div className="border-t border-red-500">
+    <div id="faq" className="border-t bg-black border-red-500">
       <div className=" p-4 rounded-lg shadow-xl py-8 ">
         <h4 className="text-4xl font-bold text-red-500 tracking-widest uppercase text-center">
           Frequently Asked Questions & Answers

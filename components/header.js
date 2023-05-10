@@ -10,7 +10,12 @@ export default function Header() {
       <Head>
         <title>Goanimatics</title>
         <meta name="description" content="Goanimatics -- Animate with US" />
-        <link rel="icon" href="/favicon.ico" />
+
+        <link
+          rel="icon"
+          href="https://goanimatics.net/wp-content/uploads/2023/01/fav-100x100.png"
+          sizes="32x32"
+        ></link>
         {/* pricing style's */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -86,7 +91,7 @@ export default function Header() {
             >
               <ul className="items-center justify-center space-y-8 text-xl md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
-                  <Link href="#portfolio ">
+                  <Link href="#portfolio">
                     <a>Portfolio</a>
                   </Link>
                 </li>
