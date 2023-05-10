@@ -110,7 +110,7 @@ export default function Faq() {
             <div>
               <div className="flex items-center h-16">
                 <span className="text-lg text-red-500 font-bold">
-                  What If I Don't Like The Video?
+                  What If I Dont Like The Video?
                 </span>
               </div>
               <div className="flex items-center py-2">
