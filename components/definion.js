@@ -82,10 +82,12 @@ export default function Definition() {
         </div>
         <div className="lg:w-full lg:max-w-2xl">
           <iframe
-            className="w-72 sm:w-96"
-            title="vimeo-player"
-            src="https://player.vimeo.com/video/756360442?h=804d60209a"
-            height="320"
+            width="600"
+            height="260"
+            src="https://www.youtube-nocookie.com/embed/lbbjy0tD1eM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
         </div>
