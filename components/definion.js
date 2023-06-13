@@ -82,7 +82,7 @@ export default function Definition() {
         </div>
         <div className="lg:w-full lg:max-w-2xl">
           <iframe
-            width="600"
+            className="w-72 sm:w-96"
             height="260"
             src="https://www.youtube-nocookie.com/embed/lbbjy0tD1eM"
             title="YouTube video player"
