@@ -106,7 +106,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
-                  <Link href="#pepe">
+                  <Link href="#faq">
                     <a>About Us</a>
                   </Link>
                 </li>
