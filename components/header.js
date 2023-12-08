@@ -110,11 +110,12 @@ export default function Header() {
                     <a>About Us</a>
                   </Link>
                 </li>
+{/*
                 <li className="text-white font-semibold hover:text-red-500 transform  transition duration-200 ease-in">
                   <Link href="javascript:void( window.open( 'https://form.jotform.com/231294780271457', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">
                     <a>Get A Quote</a>
                   </Link>
-                </li>
+                </li>*/}
               </ul>
             </div>
           </div>
